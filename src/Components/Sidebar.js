@@ -5,12 +5,10 @@ import { Cat } from "lucide-react";
 import { LogOut } from "lucide-react";
 import { Link } from "react-router-dom";
 import img1 from "../Assets/Img/Logo.png";
-import "path/to/font-awesome/css/font-awesome.min.css";
-// import Loader from "./Loader";
+import "@fortawesome/fontawesome-free/css/all.css";
 function Sidebar() {
   return (
     <div>
-      {/* <Loader /> */}
       <div className="button-container">
         <nav className="n1"></nav>
 

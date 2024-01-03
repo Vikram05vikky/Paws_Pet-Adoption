@@ -13,7 +13,7 @@
 }
 
 header{
-    position:relative;
+    /* position:relative; */
     top: 0;
     width: 100%;
     padding: 30px 100px;
@@ -32,7 +32,6 @@ header{
     font-weight: 1000;
     letter-spacing: 2px;
     border-left: 5px solid #f8a414;
-    /* size: 10px; */
     transition: 0.3s;
 }
 

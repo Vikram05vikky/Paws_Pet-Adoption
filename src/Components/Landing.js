@@ -1,15 +1,16 @@
 import Nav from "./Nav";
 import "../Assets/Landing.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import Shine from "./Shine";
 
 const App = () => {
   return (
     <body className="h">
-      <Shine/>
+      <Shine />
       <section>
         <sidebar />
         <Nav />
-        <link
+        {/* <link
           rel="stylesheet"
           onclick="redirectTo('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')"
         ></link>
@@ -18,7 +19,7 @@ const App = () => {
           rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous"
-        ></link>
+        ></link> */}
         <div class="contentab">
           <div class="cardab">{/* <img class="card-img-top" /> */}</div>
           <div class="infoab">

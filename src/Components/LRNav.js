@@ -1,6 +1,6 @@
 import "../Assets/Sidebar.css";
 import { Link } from "react-router-dom";
-import "path/to/font-awesome/css/font-awesome.min.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import img1 from "../Assets/Img/Logo.png";
 function PPNav() {
   return (

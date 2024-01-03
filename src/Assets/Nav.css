@@ -47,8 +47,10 @@ header .navigation{
     letter-spacing: 5px;
     padding: 2px 15px;
     border-radius: 20px;
+    /* gap: 2cm; */
     transition-property: background;
-    margin-right: 30px;
+    margin-right: 5cm;
+
 }
 
 .navigation a{

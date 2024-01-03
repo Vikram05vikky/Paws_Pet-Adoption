@@ -1,5 +1,7 @@
 import React from "react";
 import "../Assets/Login.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import LRNav from "./LRNav";
 const Login = () => {
@@ -10,9 +12,12 @@ const Login = () => {
 
     if (a !== "vikram" && b !== "vikky") {
       alert("Username / Password invalid");
+      // toast.alert("Username / Password invalid");
     } else if (a !== "vikram" || b !== "vikky") {
       alert("Username / Password invalid");
+      // toast.alert("Username / Password invalid");
     } else {
+      // toast.success("Login success");
       move("/Home");
     }
   };
@@ -24,6 +29,7 @@ const Login = () => {
   return (
     <div className="v1">
       <LRNav />
+      <ToastContainer />
       <body className="b1">
         <form class="container" onSubmit={Signin}>
           <h2>Login</h2>

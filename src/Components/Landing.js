@@ -1,8 +1,7 @@
 import Nav from "./Nav";
 import "../Assets/Landing.css";
-import "@fortawesome/fontawesome-free/css/all.css";
 import Shine from "./Shine";
-
+import "@fortawesome/fontawesome-free/css/all.css";
 const App = () => {
   return (
     <body className="h">
@@ -12,10 +11,10 @@ const App = () => {
         <Nav />
         {/* <link
           rel="stylesheet"
-          onclick="redirectTo('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         ></link>
         <link
-          onclick="redirectTo('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css')"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous"
@@ -38,17 +37,34 @@ const App = () => {
           </div>
         </div>
 
-        <div class="media-icons">
-          <span target="_blank" rel="noopener noreferrer">
+        {/* <div class="media-icons">
+          <a
+            href="https://en-gb.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-facebook-f"></i>
-          </span>
-          <span target="_blank" rel="noopener noreferrer">
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-x-twitter"></i>
-          </span>
-          <span target="_blank" rel="noopener noreferrer">
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-instagram"></i>
-          </span>
-        </div>
+          </a>
+        </div> */}
+        {/* <div class="media-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div> */}
       </section>
     </body>
   );

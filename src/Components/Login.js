@@ -1,7 +1,6 @@
 import React from "react";
 import "../Assets/Login.css";
 import { useNavigate } from "react-router-dom";
-import Nav from "./Nav";
 import LRNav from "./LRNav";
 const Login = () => {
   const move = useNavigate();

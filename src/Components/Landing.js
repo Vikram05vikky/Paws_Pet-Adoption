@@ -5,6 +5,7 @@ import Shine from "./Shine";
 const App = () => {
   return (
     <body className="h">
+      <Shine/>
       <section>
         <sidebar />
         <Nav />
@@ -37,25 +38,13 @@ const App = () => {
         </div>
 
         <div class="media-icons">
-          <a
-            // href="https://en-gb.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a
-            // href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a
-            // href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>

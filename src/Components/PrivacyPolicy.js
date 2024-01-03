@@ -1,7 +1,7 @@
 import React from "react";
 import PPNav from "./PPNav";
 import "../Assets/PrivacyPolicy.css";
-import Footer from "./Footer";
+import Footer from "./Footer"
 // import image from "../Assets/unused/pet2.jpg";
 
 function PrivacyPolicy() {

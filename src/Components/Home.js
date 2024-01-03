@@ -1,6 +1,4 @@
 import React from "react";
-// import "../Assets/Landing.css";
-import Shine from "./Shine";
 import Sidebar from "./Sidebar";
 import "../Assets/Home.css";
 import Footer from "./Footer";

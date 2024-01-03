@@ -9,7 +9,7 @@ function Register() {
     let a = document.getElementById("pass1").value;
     let b = document.getElementById("pass2").value;
 
-    if (a == b) {
+    if (a === b) {
       alert("Password matched ! Register Successful");
       move("/Home");
     } else {

@@ -51,9 +51,9 @@ function Dog() {
           </div>
           <div class="card card--3">
             <div class="card__img"></div>
-            <a class="card_link">
+            <span class="card_link">
               <div class="card__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -68,9 +68,9 @@ function Dog() {
 
           <div class="card card--4">
             <div class="card__img"></div>
-            <a  class="card_link">
+            <span  class="card_link">
               <div class="card__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -78,7 +78,7 @@ function Dog() {
               <span class="card__by">
                 <button className="bbb" onClick={change}>
                   Adopt
-                </button>
+                </button>z
               </span>
             </div>
           </div>

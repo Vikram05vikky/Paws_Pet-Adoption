@@ -49,17 +49,17 @@ function Sidebar() {
           style={{ position: "absolute", top: -15, left: 0, height: "100px" }}
         ></img>
         <br></br>
-        <a className="item" data-text="Dog">
+        <span className="item" data-text="Dog">
           <Link to="/Dog">
             <Dog size={48} style={{ textDecoration: "none", color: "white" }} />
           </Link>
-        </a>
-        <a className="item" data-text="Cat">
+        </span>
+        <span className="item" data-text="Cat">
           <Link to="/Cat">
             <Cat size={48} style={{ textDecoration: "none", color: "white" }} />
           </Link>
-        </a>
-        <a className="ite">
+        </span>
+        <span className="ite">
           <Link to="/Others" style={{ textDecoration: "none" }}>
             <h6
               style={{
@@ -72,16 +72,16 @@ function Sidebar() {
             </h6>
           </Link>
           {/* <h6>Others</h6> */}
-        </a>
+        </span>
 
-        <a className="item" data-text="Logout">
+        <span className="item" data-text="Logout">
           <Link to="/">
             <LogOut
               size={48}
               style={{ textDecoration: "none", color: "white" }}
             />
           </Link>
-        </a>
+        </span>
       </nav>
     </div>
   );

@@ -7,53 +7,53 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-icons">
-          <a
+          <span
             onclick="redirectTo('https://twitter.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-twitter"></i>
-          </a>
-          <a
+          </span>
+          <span
             onclick="redirectTo(https://facebook.com)"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-facebook"></i>
-          </a>
-          <a
+          </span>
+          <span
             onclick="redirectTo('https://linkedin.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
-          </a>
-          <a
+          </span>
+          <span
             onclick="redirectTo('https://github.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github"></i>
-          </a>
+          </span>
         </div>
         <div className="footer-links">
-          <a>FAQ</a>
+          <span>FAQ</span>
           <Link to="/PrivacyPolicy">Privacy Policy</Link>
 
-          <a
+          <span
             onclick="redirectTo('https://strayanimalfoundationindia.org/the-challenges-and-rewards-of-international-animal-adoption/?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGSX1zdpRKTW1jdHTzrUjGlfcob-G8OseXLrEAKgfTGi-SG-FElgUCxoCX2IQAvD_BwE')"
             target="_blank"
             rel="noopener noreferrer"
           >
             Stray Animal Foundation India
-          </a>
-          <a
+          </span>
+          <span
             onclick="redirectTo('https://www.internationalanimalrescue.org/')"
             target="_blank"
             rel="noopener noreferrer"
           >
             International Animal Rescue
-          </a>
+          </span>
         </div>
         <div className="footer-links">
           <Link to="/Home">Home</Link>

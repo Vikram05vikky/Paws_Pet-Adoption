@@ -48,9 +48,9 @@ function Others() {
           </div>
           <div class="card cardo--3">
             <div class="cardo__img"></div>
-            <a class="card_link">
+            <span class="card_link">
               <div class="cardo__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -65,9 +65,9 @@ function Others() {
 
           <div class="card cardo--4">
             <div class="cardo__img"></div>
-            <a class="card_link">
+            <span class="card_link">
               <div class="cardo__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>

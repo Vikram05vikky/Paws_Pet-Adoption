@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div className="cont1">
-        <img src={cooo} className="coim" />
+        <img src={cooo} alt="img" className="coim" />
       </div>
       <Sidebar />
       {/* <Footer /> */}

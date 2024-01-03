@@ -7,20 +7,21 @@ const Nav = () => {
       <header>
         <img
           src={img1}
+          alt="img"
           style={{ position: "absolute", top: 0, left: 0, height: "100px" }}
         ></img>
         <h2 style={{ color: "white", fontWeight: "40px" }}>Paws</h2>
         <div class="navigation">
-          <a className="info-btn">
+          <span className="info-btn">
             <Link style={{ color: "white" }} to="/Login">
               Login
             </Link>
-          </a>
-          <a className="info-btn">
+          </span>
+          <span className="info-btn">
             <Link style={{ color: "white" }} to="/Register">
               Register
             </Link>
-          </a>
+          </span>
         </div>
       </header>
     </body>

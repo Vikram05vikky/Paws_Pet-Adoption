@@ -1,6 +1,6 @@
 import "../Assets/Sidebar.css";
 import { Link } from "react-router-dom";
-import '@fortawesome/fontawesome-free/css/all.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 import img1 from "../Assets/Img/Logo.png";
 function PPNav() {
   return (
@@ -9,6 +9,7 @@ function PPNav() {
         <nav className="n1"></nav>
         <img
           src={img1}
+          alt="img"
           style={{ position: "absolute", top: -15, left: 0, height: "100px" }}
         ></img>
         <button className="button">

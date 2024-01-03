@@ -15,9 +15,9 @@ function Cat() {
         <div class="cards">
           <div class="card cardd--1">
             <div class="cardd__img"></div>
-            <a  class="card_link">
+            <span  class="card_link">
               <div class="cardd__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -32,9 +32,9 @@ function Cat() {
 
           <div class="card cardd--2">
             <div class="cardd__img"></div>
-            <a  class="card_link">
+            <span  class="card_link">
               <div class="cardd__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -48,9 +48,9 @@ function Cat() {
           </div>
           <div class="card cardd--3">
             <div class="cardd__img"></div>
-            <a  class="card_link">
+            <span  class="card_link">
               <div class="cardd__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>
@@ -65,9 +65,9 @@ function Cat() {
 
           <div class="card cardd--4">
             <div class="cardd__img"></div>
-            <a  class="card_link">
+            <span  class="card_link">
               <div class="cardd__img--hover"></div>
-            </a>
+            </span>
             <div class="card__info">
               <span class="card__category"> Julie</span>
               <h3 class="card__title">Age : 8 </h3>

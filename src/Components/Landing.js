@@ -39,15 +39,15 @@ const App = () => {
         </div>
 
         <div class="media-icons">
-          <a target="_blank" rel="noopener noreferrer">
+          <span target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-facebook-f"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer">
+          </span>
+          <span target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-x-twitter"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer">
+          </span>
+          <span target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram"></i>
-          </a>
+          </span>
         </div>
       </section>
     </body>

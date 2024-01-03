@@ -9,6 +9,7 @@ function PPNav() {
         <nav className="n1"></nav>
         <img
           src={img1}
+          alt="img"
           style={{ position: "absolute", top: -15, left: 0, height: "100px" }}
         ></img>
         <button className="button">

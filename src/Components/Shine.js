@@ -36,7 +36,7 @@ function Shine() {
 
       container.appendChild(str);
 
-      const fs = 10 + 5 * parseFloat(getComputedStyle(str).fontSize);
+      // const fs = 10 + 5 * parseFloat(getComputedStyle(str).fontSize);
 
       // str.animate(
       //   {

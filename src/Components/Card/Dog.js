@@ -51,7 +51,7 @@ function Dog() {
           </div>
           <div class="card card--3">
             <div class="card__img"></div>
-            <a href="#" class="card_link">
+            <a class="card_link">
               <div class="card__img--hover"></div>
             </a>
             <div class="card__info">
@@ -68,7 +68,7 @@ function Dog() {
 
           <div class="card card--4">
             <div class="card__img"></div>
-            <a href="#" class="card_link">
+            <a  class="card_link">
               <div class="card__img--hover"></div>
             </a>
             <div class="card__info">

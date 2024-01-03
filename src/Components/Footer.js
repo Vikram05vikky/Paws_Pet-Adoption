@@ -8,28 +8,28 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-icons">
           <a
-            href="https://twitter.com"
+            onclick="redirectTo('https://twitter.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://facebook.com"
+            onclick="redirectTo(https://facebook.com)"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-facebook"></i>
           </a>
           <a
-            href="https://linkedin.com"
+            onclick="redirectTo('https://linkedin.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://github.com"
+            onclick="redirectTo('https://github.com')"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,18 +37,18 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-links">
-          <a href="#">FAQ</a>
+          <a>FAQ</a>
           <Link to="/PrivacyPolicy">Privacy Policy</Link>
 
           <a
-            href="https://strayanimalfoundationindia.org/the-challenges-and-rewards-of-international-animal-adoption/?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGSX1zdpRKTW1jdHTzrUjGlfcob-G8OseXLrEAKgfTGi-SG-FElgUCxoCX2IQAvD_BwE"
+            onclick="redirectTo('https://strayanimalfoundationindia.org/the-challenges-and-rewards-of-international-animal-adoption/?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGSX1zdpRKTW1jdHTzrUjGlfcob-G8OseXLrEAKgfTGi-SG-FElgUCxoCX2IQAvD_BwE')"
             target="_blank"
             rel="noopener noreferrer"
           >
             Stray Animal Foundation India
           </a>
           <a
-            href="https://www.internationalanimalrescue.org/"
+            onclick="redirectTo('https://www.internationalanimalrescue.org/')"
             target="_blank"
             rel="noopener noreferrer"
           >

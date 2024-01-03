@@ -1,20 +1,16 @@
 import React from "react";
 import "../Assets/Sidebar.css";
 import { Dog } from "lucide-react";
-import { Bird } from "lucide-react";
 import { Cat } from "lucide-react";
-import { Rabbit } from "lucide-react";
-import { PawPrint } from "lucide-react";
-import { Home } from "lucide-react";
 import { LogOut } from "lucide-react";
 import { Link } from "react-router-dom";
 import img1 from "../Assets/Img/Logo.png";
+import "path/to/font-awesome/css/font-awesome.min.css";
 // import Loader from "./Loader";
 function Sidebar() {
   return (
     <div>
       {/* <Loader /> */}
-      <link href="path/to/font-awesome/css/font-awesome.min.css"></link>
       <div className="button-container">
         <nav className="n1"></nav>
 
@@ -51,6 +47,7 @@ function Sidebar() {
       <nav className="lnav">
         <img
           src={img1}
+          alt="dog"
           style={{ position: "absolute", top: -15, left: 0, height: "100px" }}
         ></img>
         <br></br>

@@ -1,6 +1,5 @@
 import React from "react";
 import "../Assets/Register.css";
-import { Toaster, toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import LRNav from "./LRNav";
 function Register() {

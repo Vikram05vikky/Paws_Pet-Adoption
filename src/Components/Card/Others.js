@@ -48,7 +48,7 @@ function Others() {
           </div>
           <div class="card cardo--3">
             <div class="cardo__img"></div>
-            <a href="#" class="card_link">
+            <a class="card_link">
               <div class="cardo__img--hover"></div>
             </a>
             <div class="card__info">
@@ -65,7 +65,7 @@ function Others() {
 
           <div class="card cardo--4">
             <div class="cardo__img"></div>
-            <a href="#" class="card_link">
+            <a class="card_link">
               <div class="cardo__img--hover"></div>
             </a>
             <div class="card__info">

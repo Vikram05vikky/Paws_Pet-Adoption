@@ -5,10 +5,9 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const App = () => {
   return (
     <body className="h">
-      <Shine />
+      <Nav />
       <section>
-        <sidebar />
-        <Nav />
+        <Shine />
         {/* <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"

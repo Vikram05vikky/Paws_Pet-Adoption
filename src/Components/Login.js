@@ -9,9 +9,9 @@ const Login = () => {
     let a = document.getElementById("name").value;
     let b = document.getElementById("pass1").value;
 
-    if (a !== "vikram" && b !== "vikky") {
+    if (a !== "admin" && b !== "admin") {
       alert("Username / Password invalid");
-    } else if (a !== "vikram" || b !== "vikky") {
+    } else if (a !== "admin" || b !== "admin") {
       alert("Username / Password invalid");
     } else {
       move("/Home");

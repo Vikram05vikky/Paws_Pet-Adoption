@@ -13,7 +13,7 @@
 }
 
 header{
-    /* position:relative; */
+    position:relative;
     top: 0;
     width: 100%;
     padding: 30px 100px;
@@ -32,6 +32,7 @@ header{
     font-weight: 1000;
     letter-spacing: 2px;
     border-left: 5px solid #f8a414;
+    /* size: 10px; */
     transition: 0.3s;
 }
 
@@ -45,12 +46,10 @@ header .navigation{
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 5px;
-    padding: 2px 15px;
+    /* padding: 2px 15px; */
     border-radius: 20px;
-    /* gap: 2cm; */
     transition-property: background;
     margin-right: 5cm;
-
 }
 
 .navigation a{

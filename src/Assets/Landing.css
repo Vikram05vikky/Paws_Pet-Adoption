@@ -16,7 +16,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    
+    margin-bottom: 5cm;
 }
 
 .contentab
@@ -30,7 +30,7 @@ section{
     margin-right: 2cm;
     opacity: 0.81;
     padding: 0px;
-    /* margin-bottom: 2cm; */
+    margin-bottom: 8cm;
     height: 12cm;
     /* border-color: #f7f3f3; */
     /* flex-direction: column; */

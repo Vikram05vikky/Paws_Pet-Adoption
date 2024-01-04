@@ -9,7 +9,7 @@ const Login = () => {
     let a = document.getElementById("name").value;
     let b = document.getElementById("pass1").value;
 
-    if (a !== "admin" && b !== "admin") {
+    if (a !== "admin" && b !== "123") {
       alert("Username / Password invalid");
     } else if (a !== "admin" || b !== "admin") {
       alert("Username / Password invalid");
@@ -51,6 +51,9 @@ const Login = () => {
           <button class="btn1" onClick={show}>
             Register
           </button>
+
+          <h1> Username : admin</h1>
+          <h1> Password : 123</h1>
         </form>
       </body>
     </div>

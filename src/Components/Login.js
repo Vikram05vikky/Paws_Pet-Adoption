@@ -52,8 +52,8 @@ const Login = () => {
             Register
           </button>
 
-          <h1> Username : admin</h1>
-          <h1> Password : 123</h1>
+          {/* <h1> Username : admin</h1>
+          <h1> Password : 123</h1> */}
         </form>
       </body>
     </div>

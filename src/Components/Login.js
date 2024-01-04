@@ -11,7 +11,7 @@ const Login = () => {
 
     if (a !== "admin" && b !== "123") {
       alert("Username / Password invalid");
-    } else if (a !== "admin" || b !== "admin") {
+    } else if (a !== "admin" || b !== "123") {
       alert("Username / Password invalid");
     } else {
       move("/Home");
@@ -52,8 +52,8 @@ const Login = () => {
             Register
           </button>
 
-          {/* <h1> Username : admin</h1>
-          <h1> Password : 123</h1> */}
+          <h1> Username : admin</h1>
+          <h1> Password : 123</h1>
         </form>
       </body>
     </div>

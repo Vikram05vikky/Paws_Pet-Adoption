@@ -2,6 +2,7 @@ import React from "react";
 import "../Assets/Register.css";
 import { useNavigate } from "react-router-dom";
 import LRNav from "./LRNav";
+import { Toaster, toast } from "react-hot-toast";
 function Register() {
   const move = useNavigate();
 
@@ -10,10 +11,10 @@ function Register() {
     let b = document.getElementById("pass2").value;
 
     if (a === b) {
-      alert("Password matched ! Register Successful");
+      toast.success("Password matched ! Register Successful");
       move("/Home");
     } else {
-      alert("Password not matched !");
+      toast.error("Password not matched !");
     }
   };
 
@@ -103,6 +104,7 @@ function Register() {
           </button>
         </form>
       </div>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 }

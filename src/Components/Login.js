@@ -3,6 +3,7 @@ import "../Assets/Login.css";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import LRNav from "./LRNav";
+import { Toaster, toast } from "react-hot-toast";
 const Login = () => {
   const move = useNavigate();
   const Signin = () => {
@@ -10,10 +11,11 @@ const Login = () => {
     let b = document.getElementById("pass1").value;
 
     if (a !== "admin" && b !== "123") {
-      alert("Username / Password invalid");
+      toast.error("Username / Password invalid");
     } else if (a !== "admin" || b !== "123") {
-      alert("Username / Password invalid");
+      toast.error("Username / Password invalid");
     } else {
+      toast.success("Login Success");
       move("/Home");
     }
   };
@@ -56,6 +58,7 @@ const Login = () => {
           <h1> Password : 123</h1>
         </form>
       </body>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };
